@@ -20,7 +20,3 @@ jobs:
         run: |
           az account show
           az group list
-
-      - name: 'Run az commands to create resource group'
-        run: |
-          az group create --name TestGroup --location eastus
