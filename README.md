@@ -1,4 +1,4 @@
-# azure-oidc-example
+### azure-oidc-example
 
 1. Setting up OIDC Authentication
 
