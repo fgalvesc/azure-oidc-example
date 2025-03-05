@@ -20,3 +20,7 @@ jobs:
         run: |
           az account show
           az group list
+
+      - name: Deploy Resources
+        run: |
+          az group create --name OIDCGrupoTest --location eastus
